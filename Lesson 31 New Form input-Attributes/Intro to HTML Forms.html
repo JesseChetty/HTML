@@ -35,21 +35,26 @@
         method="GET">
             <div>
                 <input class="input-item" type="text" name="username"
-                placeholder="Full Name" autofocus><br>
+                placeholder="Full Name" autofocus required><br>
             </div>
            
             <div>
                 <input class="input-item" type="email" name="Email"
-                placeholder="Email"><br>
+                placeholder="Email" required><br>
+            </div>
+            <div>
+                <p class="input-label">Age:</p>
+                <input class="input-item"type="number" name="age" max="200" min="13">
             </div>
             
             <div>
                 <input class="input-item" type="password" name="password"
-                placeholder="Password">
+                placeholder="Password" required maxlength="8">
                 <div>    
             </div>
                 <input class="input-item" type="password" 
-                name="confirm password" placeholder="Confirm password">
+                name="confirm password" placeholder="Confirm password" 
+                required maxlength="8">
             </div>
             
             <div>
